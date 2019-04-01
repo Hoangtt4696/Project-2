@@ -1,0 +1,17 @@
+body {
+  line-height: 18px !important;
+  font-size: 14px !important;
+  color: #444 !important;
+  background: #F1F1F1 !important;
+}
+
+.container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+:global input[type=text].form-control {
+  -webkit-box-shadow: unset !important;
+  -moz-box-shadow: unset !important;
+  box-shadow: unset !important;
+}

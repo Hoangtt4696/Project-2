@@ -1,0 +1,19 @@
+.wrapModalExport {
+  font-family: -apple-system,BlinkMacSystemFont,San Francisco,Segoe UI,Roboto,Helvetica Neue,sans-serif;
+}
+
+.wrapModalExport :global .modal-header {
+  padding: .5rem !important;
+}
+
+.wrapModalExport :global .modal-header h4 {
+  font-size: 18px;
+}
+
+.wrapModalExport :global .modal-body .form-check-input {
+  margin-top: 0;
+}
+
+.wrapModalExport button, label {
+  font-size: 14px;
+}

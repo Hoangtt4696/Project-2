@@ -1,0 +1,102 @@
+.couponContent {
+  margin: 1em 0;
+  position: relative;
+  padding: 1rem 2rem 2rem 2rem;
+  border: 1px solid #f4e2e2;
+}
+
+.couponCode {
+  background-color: #F70026;
+  padding: 0.3em;
+}
+
+.couponCode div {
+  font-size: 1.5em;
+  border: 1px dashed navajowhite;
+  color: white;
+  font-weight: bold;
+  padding: 0.5em;
+}
+
+.headerCoupon {
+  margin-bottom: 2em;
+}
+
+.headerCoupon p {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.valueCoupon {
+  color: red;
+}
+
+:global .fa-tags {
+  color: silver;
+}
+
+.title {
+  width: 65%;
+  float: left;
+  padding: 1.7rem;
+  border-right: 1px solid white;
+}
+
+.colorPicker {
+  width: 35%;
+  float: left;
+  padding: .5rem;
+}
+
+.bgColorEmail, .fontColorEmail {
+  display: inline-block;
+}
+
+.bgColorEmail > div, .fontColorEmail > div {
+  width: 50%;
+  float: left;
+  font-size: .7rem;
+  text-transform: initial;
+  line-height: 1.5rem;
+}
+
+.bgColorContentEmail {
+  width: 35%;
+  position: absolute;
+  right: 6px;
+  top: 8px;
+}
+
+.pickerBgContent {
+  width: 60%;
+  float: left;
+}
+
+.namePickerBgContent {
+  line-height: 1.5rem;
+  width: 40%;
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.whiteSpace {
+  white-space: pre-wrap;
+  line-height: 1.4rem;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+:global .modal-header {
+  display: inline-block!important;
+  text-align: center!important;
+  padding: 0!important;
+}
+
+:global .modal-dialog {
+  font-size: 1rem;
+}

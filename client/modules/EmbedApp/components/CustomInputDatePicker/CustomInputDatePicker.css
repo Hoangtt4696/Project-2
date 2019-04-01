@@ -1,0 +1,7 @@
+.btnDate {
+  border-color: #CCD3D9!important;
+}
+
+.startAt[readonly], .endAt[readonly], .startDate[readonly], .endDate[readonly] {
+  background-color: #ffffff!important;
+}

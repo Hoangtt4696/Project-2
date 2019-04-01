@@ -1,0 +1,24 @@
+.popover {
+  position: absolute;
+  z-index: 2;
+  right: -2rem;
+}
+
+.cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.ipValue {
+  text-align: center;
+  font-size: .9rem!important;
+  text-transform: uppercase;
+  margin-right: .2rem!important;
+}
+
+.ipValue[readonly] {
+  background-color: #ffffff!important;
+}

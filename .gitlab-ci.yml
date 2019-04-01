@@ -1,0 +1,15 @@
+image: vinhhrv/node_ci:latest
+trigger_deploy_test:
+  type: deploy
+  script:
+   - curl -X POST -F "ref=master" -F token=$DEPLOYTOKEN -F "variables[RUN_REF_NAME]=$CI_BUILD_REF_NAME" -F "variables[RUN_REF]=$CI_BUILD_REF" https://gitlab.haravan.com/api/v4/projects/380/trigger/pipeline
+  only:
+   - staging
+trigger_deploy_product:
+  type: deploy
+  script:
+   - curl -X POST -F "ref=master" -F token=$DEPLOYTOKEN -F "variables[RUN_REF_NAME]=$CI_BUILD_REF_NAME" -F "variables[RUN_TAG]=$CI_BUILD_TAG" https://gitlab.haravan.com/api/v4/projects/380/trigger/pipeline
+  only:
+    - /^build_v.*$/
+  except:
+    - branches

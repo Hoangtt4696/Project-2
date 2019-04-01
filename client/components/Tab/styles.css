@@ -1,0 +1,42 @@
+.customTab {
+  box-shadow: 0 1px 4px 0 rgba(181,181,181,0.50);
+  background: #F1F1F1;
+  border: 1px solid #D3D3D3;
+}
+
+.customTab :global .nav-tabs {
+  background: #FFF;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.customTab :global .nav-tabs .nav-link {
+  line-height: 1;
+  margin-right: 0;
+  border: 0;
+  border-right: 1px solid #e0e6ec;
+  padding: 14px 15px;
+  color: #6c6c6d;
+  border-radius: 0;
+}
+
+.customTab :global .nav-tabs .nav-link:hover {
+  background: #fafbfc;
+  color: #3a9ef0;
+}
+
+.customTab :global .nav-tabs .nav-link.active {
+  border-bottom-color: transparent;
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  background-color: #F1F1F1;
+  color: #707070!important;
+}
+
+.customTab :global .tab-pane {
+  padding: 20px;
+  background-color: #F1F1F1;
+}

@@ -1,0 +1,86 @@
+.titleSection {
+  font-weight: 600;
+  color: #4A4A4A;
+  font-family: -apple-system,BlinkMacSystemFont,San Francisco,Segoe UI,Roboto,Helvetica Neue,sans-serif;
+  font-size: 14px;
+}
+
+textarea:disabled {
+  background-color: #f9f9f9!important;
+}
+
+.documentHref {
+  font-style: italic;
+}
+
+.note {
+  color: black!important;
+  text-align: justify;
+  font-family: Arial-ItalicMT, serif;
+  font-style: italic;
+}
+
+.linkVar {
+  font-family: -apple-system,BlinkMacSystemFont,San Francisco,Segoe UI,Roboto,Helvetica Neue,sans-serif ;
+  font-size: 15px;
+  color: #248AC7;
+  font-style: italic;
+}
+
+.wrapSection {
+  line-height: 18px!important;
+}
+
+.wrapLeftContent p {
+  line-height: 18px!important;
+  color: #707070;
+  font-family: -apple-system,BlinkMacSystemFont,San Francisco,Segoe UI,Roboto,Helvetica Neue,sans-serif;
+}
+
+.wrapLeftContent {
+  font-size: 14px!important;
+  padding: 20px;
+}
+
+.wrapRightContent {
+  font-size: 14px!important;
+  padding: 20px 40px;
+  background-color: #ffffff;
+  border: 1px solid #DDDDDD;
+  border-radius: 2px;
+}
+
+.headingLeft {
+  font-size: 16px;
+  font-family: -apple-system,BlinkMacSystemFont,San Francisco,Segoe UI,Roboto,Helvetica Neue,sans-serif;
+  font-weight: bold;
+}
+
+.wrapRightContent label {
+  font-family: -apple-system,BlinkMacSystemFont,San Francisco,Segoe UI,Roboto,Helvetica Neue,sans-serif;
+}
+
+.wrapRightContent input, .wrapRightContent textarea {
+  font-size: 14px;
+}
+
+.wrapRightContent :global .btn-secondary {
+  color: #333;
+  background: #fff;
+  border-color: #c4cdd5;
+}
+
+.wrapRightContent :global .btn-secondary:hover, :global .btn-secondary:active {
+  background: -webkit-gradient(linear,left top,left bottom,from(#f4f6f8),to(#f4f6f8));
+  background: linear-gradient(to bottom,#f4f6f8,#f4f6f8);
+  border-color: #c4cdd5;
+  -webkit-box-shadow: inset 0 1px 1px 0 rgba(99,115,129,.1), inset 0 1px 4px 0 rgba(99,115,129,.2);
+  box-shadow: inset 0 1px 1px 0 rgba(99,115,129,.1), inset 0 0 0 0 rgba(99,115,129,.2);
+  color: #333;
+}
+
+.ulVarWrapper li{
+  padding: 6px 0;
+  color: #707070;;
+  font-family: -apple-system,BlinkMacSystemFont,San Francisco,Segoe UI,Roboto,Helvetica Neue,sans-serif;
+}

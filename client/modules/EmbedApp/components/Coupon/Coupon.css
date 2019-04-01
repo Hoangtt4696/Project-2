@@ -1,0 +1,16 @@
+.breadcrumbsItem:before {
+  content: '>' !important;
+}
+
+.breadcrumb {
+  background-color: #F7F7F7 !important;
+}
+
+.wrapContent {
+  padding: 20px 40px;
+  border: 1px solid #C6C6C6;
+  font-family: -apple-system,BlinkMacSystemFont,San Francisco,Segoe UI,Roboto,Helvetica Neue,sans-serif;
+  font-size: 14px;
+  background-color: #ffffff;
+  min-height: 500px;
+}

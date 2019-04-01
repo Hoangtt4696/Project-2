@@ -1,0 +1,25 @@
+.cardHeader {
+  color: #748b9b;
+}
+
+.card {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+  font-size: 14px;
+}
+
+.card input, .cart select, .cart button{
+  font-size: 14px;
+}
+
+.cardBody {
+  padding: 1rem 2rem!important;
+}
+
+.filterWidget {
+  border: 1px dotted silver;
+  padding: .9rem 2rem 0 2rem;
+}
+
+.searchWidget {
+  margin-top: 1rem;
+}

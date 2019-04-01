@@ -1,0 +1,143 @@
+.wrapTable > div {
+  border: none!important;
+}
+
+.wrapTable > div > div > div {
+  box-shadow: none!important;
+}
+
+.wrapTable :global(.-sort-desc), .wrapTable :global(.-sort-asc) {
+  box-shadow: none!important;
+}
+.checkbox label:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.checkbox .cr {
+  position: relative;
+  display: inline-block;
+  border: 1px solid #e0e0e0;
+  border-radius: .25em;
+  width: 1.3em;
+  height: 1.3em;
+  float: left;
+  margin-right: .5em;
+  font-size: 1em;
+}
+
+.checkbox {
+  padding-top: .4rem;
+}
+
+.checkbox .cr .crIcon {
+  position: absolute;
+  font-size: .8em;
+  line-height: 0;
+  top: 50%;
+  left: 20%;
+  color: #76bafd;
+}
+
+.checkbox label input[type="checkbox"] {
+  display: none;
+}
+
+.checkbox label input[type="checkbox"] + .cr > .crIcon {
+  transform: scale(3) rotateZ(-20deg);
+  opacity: 0;
+  transition: all .3s ease-in;
+}
+
+.checkbox label input[type="checkbox"]:checked + .cr > .crIcon {
+  transform: scale(1) rotateZ(0deg);
+  opacity: 1;
+}
+
+.checkbox label input[type="checkbox"]:indeterminate + .cr > .crIcon {
+  transform: scale(1) rotateZ(0deg);
+  opacity: 1;
+}
+
+.checkbox label input[type="checkbox"]:disabled + .cr {
+  opacity: .5;
+}
+
+.couponNew {
+  color: #4B6319;
+  padding: .4rem;
+  text-align: center;
+  background: #E5F2CE;
+  border: 1px solid #CDDEB5;
+  border-radius: 3px;
+}
+
+.couponUsed {
+  color: #7d7b7b;
+  padding: .4rem;
+  background-color: rgba(193, 199, 193, 0.25098);
+  text-align: center;
+  border-radius: .4rem;
+  border: 1px solid #E7E7E7;
+}
+
+.couponExpire {
+  color: #bb5803;
+  padding: .4rem;
+  background-color: #da8d006e;
+  text-align: center;
+  border-radius: .4rem;
+}
+
+:global .ReactTable :global .-pagination :global .-center {
+  flex: none!important;
+  background-color: #FFF;
+  display: inline-block!important;
+  border-top: 1px solid #DFDFDF!important;
+  border-bottom: 1px solid #DFDFDF!important;
+}
+
+:global .ReactTable :global .-pagination :global .-previous, :global .-next {
+  display: inline-block!important;
+}
+
+:global .ReactTable :global .-pagination {
+  border: none!important;
+  display: block!important;
+  text-align: center !important;
+}
+
+:global .-pageJump input {
+  width: 50px!important;
+  padding: .5rem 0!important;
+  background-color: #FFF!important;
+  text-align: right!important;
+  border: none!important;
+}
+
+:global .-pageSizeOptions select {
+  padding: .5rem!important;
+  background-color: #FFF;
+  border: none!important;
+}
+
+:global .ReactTable :global .-pagination :global .-previous button, :global .-next button{
+  padding: .7rem 1.5rem!important;
+  border: 1px solid silver !important;
+  color: #84B0D2!important;
+  font-weight: bold;
+  background-color: #FFF!important;
+}
+
+:global .ReactTable :global .-pagination :global .-previous button {
+  border-radius: 5px 0 0 5px;
+}
+
+:global .ReactTable :global .-pagination :global .-next button {
+  border-radius: 0 5px 5px 0;
+}
+
+:global .ReactTable :global .rt-tr {
+  align-items: center;
+}
